@@ -34,7 +34,7 @@ You are welcome to suggest any changes, just send a pull request or you can E-ma
 
 Features
 ========
-- Levles Unlock and Lock functionality Added.
+- Levels Unlock and Lock functionality Added.
 - Educational (based on Exam).
 - It has database to store questions 
 - Added categories functionality.
