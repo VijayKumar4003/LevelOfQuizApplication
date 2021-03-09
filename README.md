@@ -1,7 +1,7 @@
 # Level of Quiz Application
 Level of Quiz App Created with SQLite Database and sharedpreferences n Android
 
-Welcome to Quiz App's with categories and levles lock and unlock functionality.
+Welcome to Quiz App's with categories and levles.
 
 This App is created by Using the SQLite Database.
 I have created an online Tutorial Series for this repo on my YouTube Channel
