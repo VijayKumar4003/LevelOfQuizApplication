@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundfile"
+    tools:context=".JavaLevelsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:paddingBottom="50dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Level1"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel1"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 1" />
+
+            </LinearLayout>  <!-- Level 1 -->
+
+            <LinearLayout
+                android:id="@+id/Level2"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel2"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 2" />
+            </LinearLayout>  <!-- Level 2 -->
+
+
+        </LinearLayout>  <!-- First Row of Levels -->
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Level3"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel3"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 3" />
+
+            </LinearLayout>  <!-- Level 3 -->
+
+            <LinearLayout
+                android:id="@+id/Level4"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel4"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 4" />
+            </LinearLayout>  <!-- Level 4 -->
+
+
+        </LinearLayout>  <!-- Second Row of Levels -->
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Level5"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel5"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 5" />
+
+            </LinearLayout>  <!-- Level 5 -->
+
+            <LinearLayout
+                android:id="@+id/Level6"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel6"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 6" />
+            </LinearLayout>  <!-- Level 6 -->
+
+
+        </LinearLayout>  <!-- Third Row of Levels -->
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Level7"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel7"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 7" />
+
+            </LinearLayout>  <!-- Level 7 -->
+
+            <LinearLayout
+                android:id="@+id/Level8"
+                android:orientation="vertical"
+                android:layout_width="160dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:background="@drawable/level_lock_bg"
+                android:layout_height="160dp">
+
+
+                <ImageView
+                    android:id="@+id/imgLevel8"
+                    android:layout_width="90dp"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="5dp"
+                    app:srcCompat="@drawable/black_lock_img" />
+
+                <TextView
+                    android:id="@+id/txtLevel8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:layout_gravity="center|bottom"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Level 8" />
+            </LinearLayout>  <!-- Level 8 -->
+
+
+        </LinearLayout>  <!-- Fourth Row of Levels -->
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color1">#1193D0</color>
+    <color name="color2">#0BA9BD</color>
+    <color name="buttonBG">#FF9800</color>
+
+
+    <color name="JavaCatColor">#EB1076</color>
+    <color name="KotlinCatColor">#C85F0F</color>
+    <color name="PythonCatColor">#FF0000</color>
+    <color name="DartCatColor">#151BC4</color>
+
+
+    <color name="Level1">#69D5D5</color>
+    <color name="Level2">#F147D4</color>
+    <color name="Level3">#B58618</color>
+    <color name="Level4">#FF1616</color>
+    <color name="Level5">#10D610</color>
+    <color name="Level6">#0B444D</color>
+
+
+</resources>
