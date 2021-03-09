@@ -1,5 +1,5 @@
 # Level of Quiz Application
-Level of Quiz App Created with SQLite Database and sharedpreferences n Android
+Level of Quiz App Created with SQLite Database and sharedpreferences in Android
 
 Welcome to Quiz App's with categories and levles.
 
@@ -25,7 +25,7 @@ You Can See the Screenshots of the Quiz Application:
 	<img src="/screenshots/8.png" width = "200" height= "350" hspace=20>
 	<img src="/screenshots/9.png" width = "200" height= "350" hspace=20>
 	<img src="/screenshots/10.png" width = "200" height= "350" hspace=20>
-  <img src="/screenshots/10.png" width = "200" height= "350" hspace=20>
+        <img src="/screenshots/11.png" width = "200" height= "350" hspace=20>
 </p>
 
 ## If you have any queries or suggestions you can follow me on instagram: @dino_coder
